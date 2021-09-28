@@ -1,10 +1,6 @@
 #!/bin/bash
 
-commit_msg=$0
-if [$# -eq 0]; 
-    then echo "no commit message was provided. using default"
-    commit_msg="updating blog" 
-fi
+commit_msg="updating blog"
 
 cd elhayra.github.io && git pull && cd ..
 
