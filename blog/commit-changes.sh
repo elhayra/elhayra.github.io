@@ -17,5 +17,10 @@ git add .
 git commit -m $commit_msg 
 git push
 
+cd ..
+git add .
+git commit -m $commit_msg
+git push
+
 echo "Done"
 
