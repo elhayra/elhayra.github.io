@@ -13,7 +13,8 @@ bundle exec jekyll build
 cp -rf _site/* elhayra.github.io/blog
 
 cd elhayra.github.io
-git commit -am $commit_msg 
+git add .
+git commit -a $commit_msg 
 git push
 
 echo "Done"
